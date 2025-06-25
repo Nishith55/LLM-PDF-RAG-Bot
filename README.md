@@ -46,24 +46,24 @@ This is a simple yet powerful PDF Question-Answering chatbot built using **LangC
 
 ## 🧑‍💻 How to Run
 
-# Clone the repository
+### Clone the repository
 git clone https://github.com/yourusername/LLM-PDF-Query.git
 cd LLM-PDF-Query
 
 ### Set up the virtual environment
 python -m venv venv
 
-# Activate the environment
-# On macOS/Linux:
+### Activate the environment
+### On macOS/Linux:
 source venv/bin/activate
-# On Windows:
+### On Windows:
 venv\Scripts\activate
 
 ### Install dependencies
 pip install -r requirements.txt
 
 ### Add your OpenAI API key
-# Create a .env file in the root directory with the following line:
+### Create a .env file in the root directory with the following line:
 echo OPENAI_API_KEY=your_openai_key_here > .env
 
 ### Run the Streamlit app
